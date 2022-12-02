@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: #1a1a1a;
+}
+section{
+    padding: 75px 0;
+}
+h1, h3, h4, h5, h6, p{
+    color: white;
+}
+h2{
+    color: #6A5ACD;
+}
+span{
+    color:#6A5ACD;
+}
+
+/* BUTTON */
+.btn{
+    background-color: transparent ;
+    color: white ;
+    border: 2px solid white;
+    border-radius: 25px;
+    font-weight: 500;
+    padding: 10px 30px;
+    text-decoration: none;
+}
+.btn:hover{
+    transition: 0.3s;
+    background-color: #191970;
+    color: white;
+}
+
+/* NAVBAR */
+.navbar-toggler{
+    color: white;
+}
+.header_wrapper .navbar{
+    padding: 10px 0;
+}
+.header_wrapper .nav-item{
+    margin: 0 15px;
+}
+.header_wrapper .nav-item .nav-link{
+    color: #6A5ACD;
+    font-size:large;
+    font-weight: 500;
+    display: inline-block;
+}
+.header_wrapper .nav-item .nav-link:hover{
+    color: white;
+    border-bottom: 2px solid white;
+    transition: 0.3s;
+}
+
+/* HOME */
+.home_wrapper{
+    background-image: url('Towsif.jpg');
+    background-position: center center;
+    background-size:cover;
+    background-attachment: fixed;
+    height: 100vh;
+    padding: 300px 0 0 0;
+}
+
+/* SKILLS */
+.skills_wrapper{
+    background-color:black;
+}
+.skills_wrapper .container{
+    padding-top: 30px;
+}
+.skills_wrapper .progress{
+    height: 12px;
+    border-radius: 10px;
+    background-color: white; 
+    margin: 5px 25px 25px 0;
+}
+.skills_wrapper .progress .progress-bar{
+    background-color: #6A5ACD;
+}
+
+/* Portfolio */
+.portfolio_wrapper .container{
+    padding-top: 30px;
+}
+.portfolio_wrapper .card{
+    height: 475px;
+    border: 2px solid #6A5ACD;
+    background: transparent;
+}
+/* Conact */
+.contact_wrapper{
+    background-color: black;
+}
+.contact_wrapper .container{
+    padding-top: 30px;
+}
+.contact_wrapper .text{
+    padding-bottom: 25px;
+}
+.contact_wrapper .fa{
+    border: 2px solid #ffffff;
+    border-radius: 50px;
+    color: #6A5ACD;
+    width: 50px;
+    height: 50px;
+    line-height: 45px;
+    text-align: center;
+    margin-right: 15px;
+}
+.contact_wrapper .fa:hover{
+    transition: 0.3s;
+    background-color: #191970;
+    color: white;
+}
+.contact_wrapper .form-control{
+    background: transparent;
+    border: 2px solid #999;
+    border-radius: 0;
+    box-shadow: none;
+    color: white;
+    margin-bottom: 20px;
+}
+
+/* Footer */
+footer{
+    background-color: black;
+
+}
